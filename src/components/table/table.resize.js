@@ -1,7 +1,5 @@
 import {$} from '../../core/DOM';
 
-$
-
 export function resizeHandler($root, event) {
   const $resizer = $(event.target);
   const $parent = $resizer.closest('[data-type="resizable"]');
